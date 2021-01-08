@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "npm test",
-    "start": "npm install && node app.js",
+    "start": "node app.js",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "author": "JP",
@@ -17,5 +17,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.11.10"
+  },
+  "engines": {
+    "node": "10.16.3"
   }
 }
