@@ -43,7 +43,7 @@ app.use((req, res, next) => {
 // Add api route
 app.use('/api/v1', router);
 
-app.listen(PORT, () => {
-  console.log(`server running on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`server running on port ${port}`);
 });
 
